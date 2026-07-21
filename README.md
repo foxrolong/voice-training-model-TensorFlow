@@ -138,7 +138,7 @@ Sau khi kiểm tra hoạt động ổn định, thay phần điều khiển LED 
 ## Cấu trúc dự án
 
 ```text
-VoiceLight/
+coice-training-model-TensorFlow/
 │
 ├── dataset/
 │   ├── positive/
