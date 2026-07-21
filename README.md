@@ -158,12 +158,10 @@ coice-training-model-TensorFlow/
 
 ```
 
-## Mục tiêu cuối cùng
+## Mục tiêu nhỏ
 
 Hoàn thành dự án nhỏ có khả năng:
 
 * Nhận đúng câu lệnh "Mở đèn" bằng chính giọng của người dùng.
 * Chạy hoàn toàn offline trên ESP32-S3.
 * Điều khiển LED theo thời gian thực.
-
-Sau khi dự án này hoạt động ổn định, có thể thay phần điều khiển LED bằng chức năng đánh thức AI mở khóa xe.
