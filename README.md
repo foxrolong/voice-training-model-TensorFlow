@@ -152,18 +152,10 @@ coice-training-model-TensorFlow/
 │   ├── evaluate.py
 │   └── export_tflite.py
 │
-├── model/
-│   ├── model.tflite
-│   └── model_data.cc
-│
-└── esp32/
-    ├── main/
-    │   ├── app_main.c
-    │   ├── audio.c
-    │   ├── mfcc.c
-    │   ├── inference.c
-    │   └── led.c
-    └── CMakeLists.txt
+└── model/
+    ├── model.tflite
+    └── model_data.cc
+
 ```
 
 ## Mục tiêu cuối cùng
