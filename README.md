@@ -1,10 +1,8 @@
-# Quy trình huấn luyện mô hình nhận giọng bằng TensorFlow cho ESP32-S3
+<h1 align="center">Quy trình huấn luyện mô hình nhận giọng bằng TensorFlow cho ESP32-S3</h1>
 
 ## Mục tiêu
 
 Xây dựng một mô hình AI có khả năng nhận đúng câu lệnh tích hợp vào ESP32-S3 "đánh thức".
-
----
 
 ## Bước 1: Thu thập dữ liệu
 
@@ -33,7 +31,7 @@ Ghi âm các câu lệnh bằng chính giọng của bạn/người dùng.
 
 Tất cả file âm thanh nên có định dạng WAV, mono, 16 kHz, 16-bit PCM. Nếu bạn đã ghi bằng mp4 thì sử dụng [tool python](https://github.com/foxrolong/voice-training-model-TensorFlow/blob/main/convert-format.py) để chuyển định dạng về WAV, mono, 16 kHz, 16-bit.
 
----
+> 💡 **LƯU Ý:**hãy thu thập dữ liệu thật nhiều để giọng nói được nhận diện một cách chính xác nhất.
 
 ## Bước 2: Tiền xử lý dữ liệu
 
