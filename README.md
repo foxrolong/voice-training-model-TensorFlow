@@ -2,18 +2,18 @@
 
 ## Mục tiêu
 
-Xây dựng một mô hình AI có khả năng nhận đúng câu lệnh **"Mở đèn"** do chính người dùng nói. Sau khi mô hình hoạt động ổn định, sẽ tích hợp vào ESP32-S3 để điều khiển LED, sau đó mới tích hợp vào dự án Xiaozhi AI.
+Xây dựng một mô hình AI có khả năng nhận đúng câu lệnh tích hợp vào ESP32-S3 "đánh thức".
 
 ---
 
 ## Bước 1: Thu thập dữ liệu
 
-Ghi âm các câu lệnh bằng chính giọng của người dùng.
+Ghi âm các câu lệnh bằng chính giọng của bạn/người dùng.
 
 * **Positive**: Chỉ chứa câu lệnh cần nhận, ví dụ:
 
   * "Mở đèn"
-  * Thu khoảng 500–1000 mẫu.
+  * Thu khoảng 500–1000-10000 mẫu.
 
 * **Negative**: Các câu nói khác như:
 
@@ -21,7 +21,7 @@ Ghi âm các câu lệnh bằng chính giọng của người dùng.
   * "Xin chào"
   * "Một hai ba"
   * "Hello"
-  * Thu khoảng 500–1000 mẫu.
+  * Thu khoảng 500–1000-10000 mẫu.
 
 * **Noise**: Âm thanh môi trường:
 
@@ -29,9 +29,10 @@ Ghi âm các câu lệnh bằng chính giọng của người dùng.
   * Tiếng xe
   * Tiếng TV
   * Tiếng gió
-  * Thu khoảng 500–1000 mẫu.
+  * Thu khoảng 500–1000-10000 mẫu.
 
-Tất cả file âm thanh nên có định dạng WAV, mono, 16 kHz, 16-bit PCM.
+Tất cả file âm thanh nên có định dạng WAV, mono, 16 kHz, 16-bit PCM. Nếu bạn đã ghi bằng mp4 thì sử dụng [tool python]() để chuyển định dạng về WAV, mono, 16 kHz, 16-bit.
+
 
 ---
 
