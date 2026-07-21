@@ -176,4 +176,4 @@ Hoàn thành dự án nhỏ có khả năng:
 * Chạy hoàn toàn offline trên ESP32-S3.
 * Điều khiển LED theo thời gian thực.
 
-Sau khi dự án này hoạt động ổn định, có thể thay phần điều khiển LED bằng chức năng mở khóa xe hoặc đánh thức Xiaozhi AI mà không cần thay đổi mô hình AI.
+Sau khi dự án này hoạt động ổn định, có thể thay phần điều khiển LED bằng chức năng đánh thức AI mở khóa xe.
