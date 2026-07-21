@@ -31,8 +31,7 @@ Ghi âm các câu lệnh bằng chính giọng của bạn/người dùng.
   * Tiếng gió
   * Thu khoảng 500–1000-10000 mẫu.
 
-Tất cả file âm thanh nên có định dạng WAV, mono, 16 kHz, 16-bit PCM. Nếu bạn đã ghi bằng mp4 thì sử dụng [tool python]() để chuyển định dạng về WAV, mono, 16 kHz, 16-bit.
-
+Tất cả file âm thanh nên có định dạng WAV, mono, 16 kHz, 16-bit PCM. Nếu bạn đã ghi bằng mp4 thì sử dụng [tool python](https://github.com/foxrolong/voice-training-model-TensorFlow/blob/main/convert-format.py) để chuyển định dạng về WAV, mono, 16 kHz, 16-bit.
 
 ---
 
